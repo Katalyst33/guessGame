@@ -1,0 +1,19 @@
+
+html {
+    font-family: 'Baloo Bhai', cursive;
+}
+
+body{
+    font-family: 'Baloo Bhai', cursive;
+    /*background-color: #1c7430;*/
+    background-image: url("img/background.svg");
+    /*background-repeat: no-repeat, repeat;*/
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat, repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.img{
+    height: 100px;
+}

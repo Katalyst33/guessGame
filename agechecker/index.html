@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Age checker</title>
+
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+      .lastResult {
+        color: white;
+        padding: 3px;
+      }
+
+        img{
+            height: 100px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to the party</h1>
+
+    <p>We wont let you in if you are not old enough</p>
+    <p>to join the party you must be 18 years old </p>
+
+<p> please input your age for confirmation<br> do not cheat</p>
+
+    <img src="img/no.jpg">
+    <img src="img/yes.jpg">
+
+    <div class="form">
+      <label for="ageField">Enter your age: </label>
+        <input type="text" id="ageField" class="ageField">
+      <input type="submit" value="Submit Age" class="ageSubmit">
+    </div>
+
+
+
+    <div class="userMessage">
+     <p id="userInput"> user message </p>
+<!--        <p class="userMsg">message to user</p>-->
+    </div>
+
+    <script src="controller.js">
+      // Your JavaScript goes here
+    </script>
+  </body>
+</html>
